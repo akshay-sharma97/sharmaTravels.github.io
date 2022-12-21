@@ -1,0 +1,366 @@
+/* Custom CSS */
+
+.header {
+	background-color: #000;
+	padding-top: 10px;
+	opacity: 0.9;
+}
+
+.mn-border {
+	border-bottom: 4px solid #fb5718;
+}
+
+.bg-dark1 {
+    background-color: #000!important;
+    opacity: 0.9;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.nav-item {
+	padding-right: 25px;
+}
+
+.mn-spc {
+	margin-left: 10%;
+}
+
+.frm-section {
+	background-image: url('../images/bgimage1.jpg');
+	background-size: cover;
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.frmbox {
+	background-color: #fff;
+	margin-top: 10%;
+	padding: 20px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #eee !important;
+    border-color: #fff #fff #fff !important;
+}
+
+.frmheads {
+	padding-left: 10px;
+	font-weight: bold;
+	color: #000;
+}
+
+.section2 {
+	background-color: #fb5718;
+	padding: 15px 0;
+}
+
+.section2 a {
+	color: #000;
+}
+
+.section2 a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#services {
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.min-hd {
+	color: #fb5718;
+	margin-bottom: 0;
+	font-size: 28px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.man-hd {
+	font-size: 47px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.ourserve {
+	border-right: 2px dotted #bfbfbf;
+}
+
+
+#tariffs {
+	background-color: #ddd;
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.tarffi-box {
+	background-color: #fff;
+	padding: 40px 10px;
+}
+
+.fntclr {
+	color: #fb5718;
+}
+
+
+.footer {
+	background-color: #000;
+	padding-top: 4%;
+	color: #fff;
+}
+
+.footer h4 {
+	color: #fb5718;
+	font-family: 'Fira Sans Condensed', sans-serif;
+	margin-bottom: 30px;
+}
+
+.ft-menu {
+	list-style: none;
+	padding-left: 0;
+}
+
+.ft-menu a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.ft-menu a:hover {
+	color: #fb5718;
+	text-decoration: none;
+	padding-left: 5px;
+	transition: 0.5s;
+}
+
+.ft-social {
+	list-style: none;
+	padding-left: 0;
+}
+
+.ft-social li {
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.ft-social a {
+	color: #fff;
+}
+
+.ft-social a:hover {
+	color: #fb5718;
+}
+
+.footer-bottom {
+	border-top: 2px solid #fb5718;
+	padding-top: 15px;
+	margin-top: 30px;
+}
+
+.btnshp {
+	background-color: #fb5718 !important;
+    padding: 15px 45px !important;
+    border-radius: 30px !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.artl-bg {
+	background-color: #e9ecef;
+	padding-top: 2%;
+	margin-top: 4pc;
+}
+
+.addrs {
+	list-style: none;
+	padding-left: 5px;
+}
+
+.addrs li {
+	padding-bottom: 10px;
+}
+
+.addrs i {
+	color: #fb5718;
+	padding-right: 25px;
+}
+
+.mysdmn {
+	list-style: none;
+	padding-left: 0px;
+}
+
+/************* booking page *************/
+
+.head-box {
+	background-color: #000;
+	color: #fff;
+	padding: 10px 20px;
+	margin-bottom: 10px;
+}
+
+.cus-table {
+	width: 100%;
+}
+
+.cus-table td {
+	font-size: 14px;
+}
+
+.td-right {
+	text-align: right;
+	font-weight: bold;
+}
+
+.scion {
+	display: block;
+}
+
+.ft-icons {
+	position: fixed;
+	bottom: 15px;
+	z-index: 999;
+	background-color: #383737;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding-top: 13px;
+	border-radius: 25px;
+}
+
+.fa-whatsapp {
+	font-size: 23px;
+}
+
+
+.mobfotter {
+	background-color: #000;
+	padding: 15px 0 0 0;
+	display: none;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.mobmnu {
+	list-style: none;
+	padding-left: 0;
+}
+
+.mobmnu li {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	border-right: 1px solid #fff;
+}
+
+.mobmnu li:last-child {
+  	border-right: none;
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+
+@media all and (max-width: 767px) {
+	
+	.frmbox {
+	    margin-top: 11%;
+	}
+
+	.footer {
+		display: none;
+	}
+
+	.mobfotter {
+		display: block;
+	}
+
+	.scion {
+		display: none;
+	}
+
+	#services {
+		margin-bottom: 13%;
+	}
+
+	.artl-bg {
+		display: none;
+	}
+
+	.secon {
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+}
+
+
+@media all and (max-width: 575px) {
+    
+    .frmbox {
+	    margin-top: 11%;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+    
+	.frmbox {
+	    margin-top: 14%;
+	}
+
+	.frmheads {
+		font-size: 14px;
+	}
+
+	.crimg {
+		width: 50px;
+	}
+}
+
+@media all and (max-width: 413px) {
+    
+	.frmbox {
+	    margin-top: 18%;
+	}
+	
+	.frmheads {
+		font-size: 12px;
+	}
+
+	.crimg {
+		width: 35px;
+	}
+}
+
+@media all and (max-width: 360px) {
+    
+	.frmbox {
+	    margin-top: 22%;
+	}
+
+	.frmheads {
+		font-size: 12px;
+	}
+
+	.mobmnu li {
+		width: 23%;
+	}
+}
+
+
+
+@media all and (max-width: 320px) {
+    
+	.frmbox {
+	    margin-top: 25%;
+	}
+
+}
